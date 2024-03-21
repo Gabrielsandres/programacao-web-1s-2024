@@ -43,6 +43,8 @@ function verificarNumeroPrimo(n) {
     }
 
     console.log(bool)
+    console.log(n + "\n")
+
 
 }
 
@@ -56,6 +58,5 @@ verificarNumeroPrimo(100); //false
 verificarNumeroPrimo(991); //true
 verificarNumeroPrimo(104729); //true
 verificarNumeroPrimo(14348907); //false
-verificarNumeroPrimo(17)
-verificarNumeroPrimo(9)
+
 
