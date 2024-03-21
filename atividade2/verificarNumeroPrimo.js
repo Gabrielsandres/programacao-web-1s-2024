@@ -28,8 +28,12 @@ function verificarNumeroPrimo(n) {
     let resultado = 0;
     let bool = true;
 
-    for (let i = 1; i <= n; i++) {
+    for (let i = 0; i <= n; i++) {
 
+        if (n == 0 || n == 1) {
+            bool = false;
+            break
+        }
         resultado = n % i;
 
         if (resultado == 0) {
