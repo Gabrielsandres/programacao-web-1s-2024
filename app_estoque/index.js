@@ -20,7 +20,7 @@ app.get('/listar', function (req, res) {
 
 app.get('/remover/:id', function (req, res) {
     
-    let id = req;params.id;
+    let id = req.params.id;
     estoque.removerProduto(id);
     res.send(id);
     

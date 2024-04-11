@@ -8,6 +8,7 @@ function criarProduto(id, nome, qtd) {
         nome: nome,
         qtd: qtd
     };
+    adicionarProduto(p)
     return p;
 }
 
